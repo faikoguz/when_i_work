@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-01T00:11:02.558Z",
+        "line": 4,
+        "name": "The user logs in to the system",
+        "description": "",
+        "id": "creating-and-viewing-the-schedule;the-user-logs-in-to-the-system",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4222082500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.when_i_work.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144701600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User provides email",
+            "match": {
+              "location": "com.when_i_work.step_definitions.LoginStepDefinitions.user_provides_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95439500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User provides password",
+            "match": {
+              "location": "com.when_i_work.step_definitions.LoginStepDefinitions.user_provides_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92752900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks LOG IN",
+            "match": {
+              "location": "com.when_i_work.step_definitions.LoginStepDefinitions.user_clicks_log_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4229203200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the dashboard",
+            "match": {
+              "location": "com.when_i_work.step_definitions.LoginStepDefinitions.user_is_on_the_dashboard()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T00:11:11.403Z",
+        "line": 12,
+        "name": "The user creates a schedule",
+        "description": "",
+        "id": "creating-and-viewing-the-schedule;the-user-creates-a-schedule",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151595500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on the scheduler page",
+            "match": {
+              "location": "com.when_i_work.step_definitions.ScheduleStepDefinitions.user_is_on_the_scheduler_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1584797200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User creates schedule",
+            "match": {
+              "location": "com.when_i_work.step_definitions.ScheduleStepDefinitions.user_creates_schedule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1017246300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User closes the browser",
+            "match": {
+              "location": "com.when_i_work.step_definitions.ScheduleStepDefinitions.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Create"
+          }
+        ]
+      }
+    ],
+    "name": "Creating and Viewing the Schedule",
+    "description": "",
+    "id": "creating-and-viewing-the-schedule",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
